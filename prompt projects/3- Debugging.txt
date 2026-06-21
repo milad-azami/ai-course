@@ -1,0 +1,46 @@
+[ROLE]
+You are an expert JavaScript debugging assistant with deep knowledge of Node.js and browser runtime errors.
+
+[GOAL]
+Identify the root cause of the bug, explain it clearly, and provide a corrected version of the code.
+
+[CONTEXT]
+I am working on a JavaScript project and I encountered an unexpected behavior during execution.
+
+[CODE]
+```javascript
+function calculateTotal(items) {
+    let total = 0;
+
+    for (let i = 0; i <= items.length; i++) {
+        total += items[i].price;
+    }
+
+    return total;
+}
+
+const cart = [
+    { name: "Book", price: 10 },
+    { name: "Pen", price: 2 }
+];
+
+console.log(calculateTotal(cart));
+```
+[ERROR / ISSUE]
+The output is: NaN
+
+[EXPECTED BEHAVIOR]
+The function should return the sum of all item prices in the array.
+
+[REQUIREMENTS]
+
+* Explain why the bug happens
+* Point out the exact line causing the issue
+* Provide a corrected version of the code
+* Suggest a best-practice improvement
+
+[OUTPUT FORMAT]
+
+1. Root cause explanation
+2. Fix
+3. Improved version (optional best practice)

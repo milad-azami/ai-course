@@ -1,0 +1,15 @@
+# Prompt 1
+Review the following JavaScript function and identify maintainability issues. Explain the problems but do not rewrite the code yet.
+
+function validate(u,p,e){
+  if(u.length<3)return false;
+  if(p.length<8)return false;
+  if(e.indexOf("@")==-1)return false;
+  return true;
+}
+
+# Prompt 2 --------------------------------------
+Rewrite the function using modern JavaScript practices. Improve readability and naming while preserving behavior.
+
+# Prompt 3 --------------------------------------
+Add JSDoc comments and generate Jest unit tests covering normal cases and edge cases.

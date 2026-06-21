@@ -1,0 +1,6 @@
+Act as a [Role].
+Your task is to [Task].
+Use the following context: [Context].
+Follow these constraints: [Constraints].
+Present the output in this format: [Output Format].
+Use these examples if needed: [Examples].

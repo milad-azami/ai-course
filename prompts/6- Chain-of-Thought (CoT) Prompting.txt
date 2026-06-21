@@ -1,0 +1,7 @@
+You are a JavaScript expert.
+Explain step-by-step how you would debug the following function.
+Think through possible edge cases before giving the final corrected version.
+Function:
+    function unique(arr) {  
+    return [...new Set(arr)];  
+    }  

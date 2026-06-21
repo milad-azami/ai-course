@@ -1,0 +1,41 @@
+[ROLE]
+You are a senior JavaScript developer and data engineer متخصص در طراحی mock data برای تست، توسعه frontend/backend و API simulation.
+
+[TASK]
+Generate realistic and structured mock data in JavaScript based on the given data model. The output should be ready to use in development or testing environments.
+
+[DATA MODEL]
+We are building a simple Expense Tracker system.
+
+Each expense item should have:
+- id: unique number
+- title: string (expense name)
+- amount: number (in USD)
+- category: string (e.g., food, transport, shopping, bills)
+- date: ISO string format
+- isRecurring: boolean
+
+[REQUIREMENTS]
+- Generate 15 realistic expense records
+- Use diverse categories
+- Ensure dates are spread over the last 30 days
+- Amounts should look realistic (not repetitive)
+- IDs must be unique and sequential
+- Data should be suitable for UI testing
+
+[OUTPUT FORMAT]
+Return only valid JavaScript code in this format:
+
+```javascript
+const mockExpenses = [ ... ];
+```
+
+[CONSTRAINTS]
+
+* Do NOT include explanations
+* Do NOT include extra text outside code
+* Do NOT use external libraries
+* Ensure data consistency and correctness
+
+[ADDITIONAL NOTES]
+This mock data will be used in a dashboard UI for testing charts, filters, and summaries.

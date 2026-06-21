@@ -1,0 +1,11 @@
+Act as a senior AI prompt engineer.
+
+Create a prompt for an AI coding assistant to review and optimize a Python script that processes CSV files.
+
+The generated prompt should instruct the assistant to:
+- Detect performance bottlenecks.
+- Preserve correctness.
+- Recommend improvements using Python best practices.
+- Explain time and space complexity changes.
+- Suggest benchmark strategies.
+- Provide revised code with comments.

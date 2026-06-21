@@ -1,0 +1,12 @@
+You are a senior JavaScript engineer.
+
+Review the following function and:
+- Focus especially on edge cases (null, undefined, empty arrays)
+- Identify potential runtime errors
+- Suggest minimal fixes without rewriting the entire function
+- Prioritize readability over performance
+
+Function:
+function getFirst(arr) {
+  return arr[0];
+}

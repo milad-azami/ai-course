@@ -1,0 +1,47 @@
+## Role
+You are a Senior Python Backend Engineer.
+
+--------------------------------------------------------
+
+## Role
+You are a Senior Python Backend Engineer.
+
+## Task
+Refactor the following code for readability.
+
+--------------------------------------------------------
+
+## Examples
+
+Input:
+```js
+for(i=0;i<arr.length;i++){}
+```
+
+Output:
+Use `for...of`.
+
+--------------------------------------------------------
+
+# Role
+You are a Senior Python Code Reviewer.
+
+# Context
+FastAPI project using PostgreSQL.
+
+# Task
+Review the code.
+
+# Input
+```python
+...
+```
+
+# Constraints
+Focus on security.
+
+# Output
+- Issues
+- Severity
+- Recommendations
+- Improved Code

@@ -1,0 +1,32 @@
+# Prompt 1
+You are a senior JavaScript developer.
+
+Design an Express.js POST /register endpoint.
+
+Requirements:
+- Accept email and password.
+- Validate inputs.
+- Hash passwords using bcrypt.
+- Return appropriate HTTP status codes.
+
+Output only a step-by-step implementation plan.
+
+#Prompt 2 ------------------------------------
+Using the implementation plan below, generate the complete Express.js code.
+
+Plan:
+[Paste output from Prompt 1]
+
+Include comments explaining major sections.
+
+#Prompt 3 ------------------------------------
+Review the following Express.js code for:
+- Security issues
+- Error handling gaps
+- Missing validation
+- Maintainability concerns
+
+Suggest improvements with explanations.
+
+Code:
+[Paste output from Prompt 2]

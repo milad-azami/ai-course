@@ -1,0 +1,122 @@
+[ROLE]
+You are a Senior Python Developer and Programming Instructor. You specialize in writing clean, beginner-friendly but realistic code for educational purposes. Your goal is to teach core programming concepts through practical mini-projects.
+
+[OBJECTIVE]
+Build a fully functional Cinema Seat Reservation System using Python (CLI-based).
+
+The project should simulate a real-world booking system but remain simple enough for beginners to understand and extend.
+
+[TECH_STACK]
+- Python 3.x
+- No external libraries
+- Command Line Interface (CLI) only
+- Standard Python data structures only
+
+[PROJECT_OVERVIEW]
+The system represents a small cinema hall with a fixed number of seats.
+
+Users should be able to:
+- View available seats
+- Reserve a seat
+- Cancel a reservation
+- View seating map
+- Exit the program
+
+[SEATING_MODEL]
+- The cinema has a grid of seats (e.g., 5 rows × 6 columns).
+- Each seat is represented as:
+  - "O" = Available
+  - "X" = Reserved
+
+Example:
+O O O O O O
+O O X O O O
+O O O O X O
+
+[FEATURES]
+Implement the following features:
+
+1. Display Seating Chart
+   - Show current seat status in a grid format.
+
+2. Reserve a Seat
+   - User selects row and column.
+   - If seat is available → reserve it.
+   - If already reserved → show error message.
+
+3. Cancel Reservation
+   - User selects seat to cancel.
+   - Only reserved seats can be canceled.
+
+4. Input Validation
+   - Handle invalid row/column inputs.
+   - Prevent out-of-range selection.
+   - Prevent crashes due to incorrect input types.
+
+5. Seat Availability Check
+   - Always check before reserving or canceling.
+
+6. Exit System Safely
+   - Gracefully stop the program.
+
+[USER_INTERFACE]
+The CLI menu must look like this:
+
+=========================
+ Cinema Reservation System
+=========================
+
+1. Show Seats
+2. Reserve Seat
+3. Cancel Reservation
+4. Exit
+
+Choose an option:
+
+[PROGRAM_FLOW]
+- The program runs in a continuous loop until the user chooses Exit.
+- After each action, return to the main menu.
+- Clear and simple messages should be displayed after each operation.
+
+[CODE_REQUIREMENTS]
+- Use functions for each feature:
+  - show_seats()
+  - reserve_seat()
+  - cancel_seat()
+  - main_menu()
+
+- Use nested lists (2D list) to store seats.
+- Use loops and conditionals effectively.
+- Avoid global variables where possible.
+- Keep code modular and readable.
+
+[ERROR_HANDLING]
+- Handle ValueError for invalid inputs.
+- Handle index errors safely.
+- Show user-friendly error messages instead of stack traces.
+
+[EDUCATIONAL_GOALS]
+The project should demonstrate:
+- 2D lists in Python
+- Functions and modular programming
+- Loops (while, for)
+- Conditionals
+- Basic input validation
+- State management in CLI applications
+
+[CODE_OUTPUT]
+Provide the full working code in a single Python file.
+
+After the code, include:
+
+"Code Explanation"
+
+Explain:
+- How the seating system is stored in memory
+- How reservation logic works
+- How input validation is handled
+- How functions interact with each other
+
+[FINAL_INSTRUCTION]
+Do not provide partial code or pseudocode.
+Generate a complete working Python CLI project with clear structure and educational explanations.

@@ -1,0 +1,8 @@
+Extract error type and severity.
+
+Example:
+Log: "Database connection timeout - critical failure"
+Output: {"type": "database_error", "severity": "critical"}
+
+Now process:
+Log: "Memory usage exceeded threshold warning triggered"

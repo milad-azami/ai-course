@@ -1,0 +1,6 @@
+Write a Python program to solve this problem:
+
+Generate Fibonacci numbers up to N = 50.
+Return a list of only even Fibonacci numbers.
+
+Return ONLY executable Python code.

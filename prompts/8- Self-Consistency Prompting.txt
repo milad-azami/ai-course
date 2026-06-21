@@ -1,0 +1,16 @@
+You are a senior JavaScript engineer.
+
+Solve the following problem using self-consistency:
+
+“Design a JavaScript approach to detect duplicate payment transactions arriving in real time.”
+
+Generate three independent solution approaches, each with its own reasoning and trade-offs.
+
+After generating them, compare the approaches and identify the recommendation that appears most robust across the alternatives.
+
+Return:
+
+1. The three approaches.
+2. A short comparison table.
+3. The final recommended solution with JavaScript pseudocode.
+4. A confidence explanation describing why this recommendation was selected.

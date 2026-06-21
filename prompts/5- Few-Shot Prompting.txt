@@ -1,0 +1,16 @@
+Classify support tickets into JSON format.
+
+Example 1:
+Ticket: "App crashes on startup"
+Output: {"category": "bug", "priority": "high"}
+
+Example 2:
+Ticket: "Request for dark mode feature"
+Output: {"category": "feature_request", "priority": "low"}
+
+Example 3:
+Ticket: "Payment page not loading"
+Output: {"category": "bug", "priority": "high"}
+
+Now classify:
+Ticket: "Slow performance when loading dashboard"

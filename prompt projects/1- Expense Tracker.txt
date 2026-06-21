@@ -1,0 +1,131 @@
+[ROLE]
+You are a Senior Frontend Developer and Technical Instructor with expertise in HTML, CSS, and Vanilla JavaScript. Your task is to build clean, educational, and production-quality code suitable for students in an introductory web development course.
+
+[OBJECTIVE]
+Create a fully functional Expense Tracker web application using only HTML, CSS, and Vanilla JavaScript.
+
+The final project should be simple enough for beginners to understand, but realistic enough to demonstrate practical frontend development concepts.
+
+[TECH_STACK]
+- HTML5
+- CSS3
+- Vanilla JavaScript (ES6+)
+- No frameworks
+- No external libraries
+- No CSS frameworks
+- No build tools
+
+[PROJECT_FEATURES]
+Implement the following features:
+
+1. Add a new transaction.
+2. Each transaction must include:
+   - Title/Description
+   - Amount
+   - Type:
+     - Income
+     - Expense
+
+3. Display:
+   - Total Balance
+   - Total Income
+   - Total Expenses
+
+4. Show all transactions in a list.
+
+5. Allow users to delete a transaction.
+
+6. Persist data using LocalStorage.
+
+7. Automatically restore saved transactions when the page reloads.
+
+8. Update all calculations dynamically after every add/delete action.
+
+[UI_REQUIREMENTS]
+Design a modern and clean interface with the following sections:
+
+- Application Header
+- Balance Summary Card
+- Income and Expense Summary Cards
+- Transaction Form
+- Transaction History List
+- Use a Light Theme only.
+- Primary brand color: #4F46E5
+
+The design should:
+- Be responsive.
+- Work well on mobile and desktop.
+- Use CSS Flexbox and/or Grid.
+- Include subtle hover effects.
+- Have clear visual distinction between income and expense items.
+- Use semantic HTML elements.
+
+[FORM_VALIDATION]
+Implement validation rules:
+
+- Title cannot be empty.
+- Amount must be a valid positive number.
+- Transaction type must be selected.
+- Display user-friendly error messages.
+- Prevent invalid submissions.
+
+[JAVASCRIPT_REQUIREMENTS]
+Use clean JavaScript practices:
+
+- Organize the code into small reusable functions.
+- Use:
+  - const and let
+  - Template literals
+  - Array methods
+  - addEventListener
+  - JSON.parse()
+  - JSON.stringify()
+
+Avoid:
+- Global variables whenever possible.
+- Duplicate code.
+- Inline event handlers.
+
+[FILE_STRUCTURE]
+Generate the project using exactly these files:
+
+/index.html
+/style.css
+/script.js
+
+[CODE_OUTPUT]
+Output the complete contents of each file separately using the following format:
+
+=== index.html ===
+(code)
+
+=== style.css ===
+(code)
+
+=== script.js ===
+(code)
+
+[EDUCATIONAL_NOTES]
+After generating the code, include a section titled:
+
+"Code Explanation"
+
+Explain:
+- How transactions are stored.
+- How LocalStorage works.
+- How balances are calculated.
+- How DOM updates occur.
+- Why specific JavaScript functions were created.
+
+Use beginner-friendly language suitable for teaching.
+
+[CODE_QUALITY]
+Ensure that the code is:
+- Readable
+- Well-commented
+- Consistently formatted
+- Easy to extend in future lessons
+
+[FINAL_INSTRUCTION]
+Do not provide pseudocode or partial snippets.
+Generate the complete working project with production-ready code and educational explanations.

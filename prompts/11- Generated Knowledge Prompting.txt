@@ -1,0 +1,19 @@
+You are helping optimize a Node.js REST API.
+
+First, generate 5–7 pieces of relevant knowledge about common causes of performance bottlenecks in Node.js APIs, including asynchronous patterns, database access, event loop behavior, and caching strategies.
+
+If uncertain about any point, explicitly say so.
+
+Then, using the generated knowledge, review the following code and recommend improvements:
+
+app.get("/users", async (req, res) => {
+  const users = await db.query("SELECT * FROM users");
+  const profiles = [];
+
+  for (const user of users.rows) {
+    const profile = await fetchProfile(user.id);
+    profiles.push(profile);
+  }
+
+  res.json(profiles);
+});

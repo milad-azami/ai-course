@@ -1,0 +1,60 @@
+[ROLE]
+You are a senior JavaScript engineer specializing in clean architecture, refactoring, and scalable code design.
+
+[TASK]
+Refactor the given JavaScript code to improve readability, maintainability, and adherence to modern best practices (ES6+).
+
+[CODE]
+```javascript
+function processData(data) {
+    let result = [];
+
+    for (let i = 0; i < data.length; i++) {
+        if (data[i].active == true) {
+            let obj = {
+                id: data[i].id,
+                name: data[i].name,
+                value: data[i].value * 2
+            };
+            result.push(obj);
+        }
+    }
+
+    return result;
+}
+
+const input = [
+    { id: 1, name: "A", value: 10, active: true },
+    { id: 2, name: "B", value: 20, active: false },
+    { id: 3, name: "C", value: 30, active: true }
+];
+
+console.log(processData(input));
+```
+[REFRACTING GOALS]
+* Improve code readability
+* Use modern JavaScript features (map, filter, arrow functions, etc.)
+* Reduce unnecessary variables and mutation
+* Improve naming clarity
+* Keep output behavior exactly the same
+
+[CONSTRAINTS]
+
+* Do NOT change the business logic
+* Do NOT add external libraries
+* Ensure output remains identical
+* Prefer functional programming style where appropriate
+
+[ANALYSIS REQUIRED]
+Before refactoring:
+
+* Identify code smells
+* Point out inefficiencies
+* Mention violations of best practices
+
+[OUTPUT FORMAT]
+
+1. Code issues analysis
+2. Refactoring strategy
+3. Refactored code
+4. Short explanation of improvements

@@ -1,0 +1,21 @@
+Act as a Python developer.
+
+Your task is to write a Python function that checks whether a number is even or odd.
+
+Use the following context:
+- The function will be used by beginner programmers.
+- The input is an integer.
+
+Follow these constraints:
+- Keep the code simple and easy to understand.
+- Add brief comments.
+- Handle invalid inputs gracefully.
+
+Present the output in this format:
+1. Function Code
+2. Short Explanation
+3. Example Usage
+
+Use these examples if needed:
+Input: 4 → Output: "Even"
+Input: 7 → Output: "Odd"

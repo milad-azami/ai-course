@@ -1,0 +1,15 @@
+Write a Python function that calculates total monthly sales from a CSV file.
+
+Requirements:
+- Use only the Python standard library.
+- Handle malformed rows gracefully.
+- Include a concise docstring.
+
+Do NOT:
+- Use pandas or third-party libraries.
+- Generate visualization code.
+- Read files from hard-coded paths.
+- Ignore exceptions silently.
+- Fabricate sample data that was not provided.
+
+If assumptions are necessary, state them explicitly.

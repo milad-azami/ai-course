@@ -1,0 +1,52 @@
+[ROLE]
+You are a senior software engineer expert in both JavaScript and C++. You specialize in algorithm translation, memory management, and performance optimization in low-level languages.
+
+[TASK]
+Translate the given JavaScript code into equivalent C++ code while preserving the exact logic and output behavior.
+
+[SOURCE CODE]
+```javascript
+function findMax(arr) {
+    let max = arr[0];
+
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+
+    return max;
+}
+
+const numbers = [3, 7, 2, 9, 5];
+console.log(findMax(numbers));
+```
+
+[TARGET LANGUAGE RULES (C++)]
+
+* Use standard C++ (C++11 or newer)
+* Use vectors instead of arrays where appropriate
+* Maintain the same algorithm logic
+* Use proper type declarations (int, vector, etc.)
+* Ensure safe memory usage (no raw memory leaks)
+* Use iostream for output
+
+[CONSTRAINTS]
+
+* Do NOT change algorithm complexity
+* Do NOT introduce new data structures unless necessary
+* Do NOT alter output behavior
+* Keep code simple and readable
+
+[ANALYSIS REQUIRED]
+
+* Identify JavaScript-specific constructs and their C++ equivalents
+* Explain any necessary adaptations (e.g., dynamic arrays, typing)
+* Highlight differences in memory and execution model
+
+[OUTPUT FORMAT]
+
+1. Language differences summary (JS vs C++)
+2. Translation strategy
+3. C++ translated code
+4. Short explanation of key adaptations

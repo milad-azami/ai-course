@@ -1,0 +1,59 @@
+[ROLE]
+You are a senior JavaScript test engineer specializing in unit testing, test coverage, and test-driven development (TDD) using Jest.
+
+[TASK]
+Generate comprehensive test cases for the given JavaScript code, including edge cases, error handling, and normal scenarios.
+
+[CODE UNDER TEST]
+```javascript
+function calculateTotal(cartItems) {
+    if (!Array.isArray(cartItems)) {
+        throw new Error("Invalid input");
+    }
+
+    let total = 0;
+
+    for (let item of cartItems) {
+        if (!item.price || item.price < 0) {
+            continue;
+        }
+        total += item.price * (item.quantity || 1);
+    }
+
+    return total;
+}
+```
+
+[TESTING FRAMEWORK]
+Use Jest (JavaScript testing framework)
+
+[REQUIREMENTS]
+
+* Write unit tests for normal cases
+* Include edge cases (empty array, invalid input, missing fields)
+* Test error handling explicitly
+* Ensure high test coverage
+* Use clear test descriptions (it/should format)
+
+[EDGE CASES TO CONSIDER]
+
+* Empty cart
+* Null or undefined input
+* Items with missing price
+* Negative price values
+* Items without quantity field
+* Large number of items
+
+[OUTPUT FORMAT]
+Return only test code in this format:
+describe("calculateTotal", () => {
+    // tests here
+});
+Explain how to run tests by details
+
+[CONSTRAINTS]
+
+* Do NOT modify the original function
+* Do NOT include explanations
+* Do NOT use external libraries other than Jest
+* Keep tests clean and readable

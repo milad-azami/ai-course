@@ -1,0 +1,47 @@
+[ROLE]
+You are a senior technical writer and JavaScript engineer with expertise in API documentation, developer experience (DX), and clean code standards.
+
+[TASK]
+Generate high-quality documentation for the given JavaScript code, including function descriptions, parameters, return values, and usage examples.
+
+[CODE]
+```javascript
+function calculateDiscount(price, discountPercent) {
+    if (price < 0 || discountPercent < 0) {
+        throw new Error("Invalid input");
+    }
+
+    const discount = (price * discountPercent) / 100;
+    return price - discount;
+}
+
+function applyTax(amount, taxRate) {
+    return amount + (amount * taxRate) / 100;
+}
+```
+
+[DOCUMENTATION REQUIREMENTS]
+
+* Provide clear explanation for each function
+* Include parameter descriptions (type + meaning)
+* Include return value description
+* Add real-world usage examples
+* Mention edge cases and error handling
+* Use a format suitable for developer documentation (like README or API docs)
+
+[CONSTRAINTS]
+
+* Do NOT change the code
+* Do NOT add new functionality
+* Keep explanations concise but precise
+* Use professional technical writing style
+
+[OUTPUT FORMAT]
+
+1. Overview of the module
+2. Function documentation
+    * calculateDiscount
+    * applyTax
+3. Usage examples
+4. Edge cases & warnings
+5. Best practices notes

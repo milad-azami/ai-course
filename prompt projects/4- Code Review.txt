@@ -1,0 +1,52 @@
+[ROLE]
+You are a senior JavaScript engineer and code reviewer with expertise in clean code, performance optimization, and security best practices.
+
+[TASK]
+Perform a comprehensive code review of the provided JavaScript code.
+
+[CODE]
+```javascript
+function getActiveUsers(users) {
+    let result = [];
+
+    for (let i = 0; i < users.length; i++) {
+        if (users[i].isActive == true) {
+            result.push(users[i]);
+        }
+    }
+
+    return result;
+}
+
+const users = [
+    { name: "Ali", isActive: "true" },
+    { name: "Sara", isActive: false },
+    { name: "John", isActive: true }
+];
+
+console.log(getActiveUsers(users));
+```
+
+[FOCUS AREAS]
+
+* Code correctness (logical bugs)
+* Type safety issues
+* Performance optimization
+* Clean code & readability
+* Best practices in modern JavaScript (ES6+)
+
+[CONSTRAINTS]
+
+* Do NOT rewrite the entire code unless necessary
+* Highlight issues first, then suggest improvements
+* Be specific with line-level feedback
+
+[OUTPUT FORMAT]
+
+1. Summary of issues
+2. Line-by-line review
+3. Suggested improvements
+4. Optional optimized version of critical parts only
+
+[ADDITIONAL NOTES]
+Assume this code will run in a production Node.js environment.

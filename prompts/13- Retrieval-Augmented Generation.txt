@@ -1,0 +1,16 @@
+You are a senior JavaScript developer.
+
+Use ONLY the provided documentation excerpts to answer.
+
+Context:
+---
+[Retrieved SDK documentation chunks]
+- createPayment(amount, currency) returns Promise<PaymentResult>
+- Currency must follow ISO-4217 format.
+- Throws PaymentValidationError on invalid currency.
+---
+
+Question:
+Show a JavaScript example that creates a payment for 100 EUR.
+Explain error handling.
+If the answer is not supported by the context, say "The documentation does not specify."
