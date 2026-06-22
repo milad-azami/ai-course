@@ -1,9 +1,0 @@
-Refactor the following JavaScript function to use async/await.
-
-Requirements:
-- Preserve the existing behavior.
-- Improve readability.
-- Add brief comments explaining the changes.
-- Return only the updated code.
-
-[paste existing callback-based function here]
