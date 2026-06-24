@@ -1,0 +1,283 @@
+[ROLE]
+
+You are a senior frontend software engineer and system designer specialized in building complete business management systems using only HTML, CSS, and Vanilla JavaScript.
+
+[OBJECTIVE]
+
+Build a complete Gym Management System as a Single Page Application (SPA).
+
+Use ONLY:
+
+* HTML5
+* CSS3
+* Vanilla JavaScript (ES6+)
+
+DO NOT USE:
+
+* React
+* Vue
+* Angular
+* Bootstrap
+* Tailwind
+* jQuery
+* Any third-party library
+* Any external dependency
+
+The application must run directly in the browser after opening index.html.
+
+[PROJECT OVERVIEW]
+
+Create a modern Gym Management System for gym owners to manage:
+
+* Members
+* Membership Plans
+* Attendance
+* Payments
+
+The application should look like a real commercial dashboard.
+
+[APPLICATION MODULES]
+
+=== MODULE 1: DASHBOARD ===
+
+Create a dashboard showing:
+
+* Total Members
+* Active Memberships
+* Expired Memberships
+* Today’s Attendance Count
+* Monthly Revenue
+
+Display statistics as modern cards.
+
+Include recent activity section.
+
+=== MODULE 2: MEMBER MANAGEMENT ===
+
+Allow users to:
+
+* Add Member
+* Edit Member
+* Delete Member
+* Search Members
+* Filter Members
+
+Member fields:
+
+{
+id,
+fullName,
+phone,
+email,
+gender,
+age,
+membershipPlanId,
+joinDate,
+membershipStartDate,
+membershipEndDate,
+notes
+}
+
+Features:
+
+* Table view
+* Member profile modal
+* Search by name
+* Search by phone
+* Sort members
+
+=== MODULE 3: MEMBERSHIP MANAGEMENT ===
+
+Allow gym owner to create plans.
+
+Membership Plan structure:
+
+{
+id,
+name,
+durationMonths,
+price
+}
+
+Default plans:
+
+* Monthly
+* Quarterly
+* Semi Annual
+* Annual
+
+Features:
+
+* Create Plan
+* Edit Plan
+* Delete Plan
+* Assign Plan To Member
+
+=== MODULE 4: ATTENDANCE SYSTEM ===
+
+Create attendance tracking system.
+
+Features:
+
+* Check In Member
+* Check Out Member
+* Attendance History
+* Today’s Attendance List
+
+Attendance object:
+
+{
+id,
+memberId,
+date,
+checkInTime,
+checkOutTime
+}
+
+Rules:
+
+* Prevent duplicate check-in on same day.
+* Attendance should automatically save.
+
+=== MODULE 5: PAYMENT MANAGEMENT ===
+
+Payment object:
+
+{
+id,
+memberId,
+amount,
+paymentDate,
+paymentMethod,
+notes
+}
+
+Features:
+
+* Record Payment
+* Payment History
+* Search Payments
+* Revenue Statistics
+
+Payment Methods:
+
+* Cash
+* Card
+* Transfer
+
+=== MODULE 6: REPORTS ===
+
+Generate reports:
+
+* Active Members
+* Expired Memberships
+* Monthly Revenue
+* Attendance Report
+
+Display reports inside dashboard cards and tables.
+
+[DATA STORAGE]
+
+Use localStorage.
+
+Create separate storage service.
+
+Requirements:
+
+* Auto-save
+* Auto-load
+* Data persistence after refresh
+
+[ARCHITECTURE]
+
+Organize JavaScript using modules and separation of concerns.
+
+Structure:
+
+* State Management Layer
+* Storage Layer
+* UI Rendering Layer
+* Event Handling Layer
+
+Avoid messy code.
+
+Avoid unnecessary global variables.
+
+Use reusable functions.
+
+[USER INTERFACE]
+
+Design a modern admin dashboard.
+
+Layout:
+
+* Sidebar Navigation
+* Top Navbar
+* Main Content Area
+
+Sidebar Sections:
+
+* Dashboard
+* Members
+* Memberships
+* Attendance
+* Payments
+* Reports
+
+Requirements:
+
+* Responsive Design
+* Mobile Friendly
+* Professional Color Scheme
+* Hover Effects
+* Smooth Transitions
+* Empty States
+* Confirmation Dialog Before Delete
+
+[VALIDATION RULES]
+
+Validate:
+
+* Required Fields
+* Valid Email Format
+* Phone Number Format
+* Positive Payment Amounts
+* Valid Membership Dates
+
+Show clear validation messages.
+
+[FILE STRUCTURE]
+
+Generate code in exactly 3 files:
+
+1. index.html
+2. style.css
+3. app.js
+
+[CODE QUALITY]
+
+Requirements:
+
+* Production-quality code
+* Clean naming conventions
+* Reusable components
+* Well-commented code
+* No placeholder functions
+* No pseudocode
+* Fully working implementation
+
+[OUTPUT FORMAT]
+
+Generate complete code for:
+
+1. index.html
+2. style.css
+3. app.js
+
+Output each file separately using code blocks.
+
+Do not provide explanations.
+
+Do not omit any functionality.
+
+Generate the complete project now.

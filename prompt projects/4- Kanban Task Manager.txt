@@ -1,0 +1,77 @@
+[ROLE]
+You are an expert frontend engineer specializing in vanilla JavaScript applications with clean architecture, modular design, and production-level UI implementation.
+
+[GOAL]
+Build a fully functional Kanban Task Manager web application using ONLY:
+- HTML
+- CSS
+- Vanilla JavaScript (NO frameworks, NO libraries, NO external dependencies)
+
+[PROJECT DESCRIPTION]
+The application is a Trello-like Kanban board where users can manage tasks visually by moving them between columns.
+
+The system must include 3 default columns:
+- Todo
+- In Progress
+- Done
+
+[CORE FEATURES]
+1. Task Management
+   - Create new tasks with title + optional description
+   - Edit existing tasks
+   - Delete tasks
+
+2. Drag & Drop System
+   - Move tasks between columns using native HTML5 Drag and Drop API only
+   - Smooth UX feedback while dragging
+
+3. Persistent Storage
+   - Use browser localStorage to persist all tasks and board state
+
+4. UI/UX Requirements
+   - Clean modern UI (use CSS only, no frameworks)
+   - Responsive design (mobile + desktop)
+   - Smooth hover and drag states
+   - Each column visually distinct
+
+5. Data Model
+   Each task must follow this structure:
+   {
+     id: string,
+     title: string,
+     description: string,
+     status: "todo" | "inprogress" | "done",
+     createdAt: timestamp
+   }
+
+[ARCHITECTURE REQUIREMENTS]
+- Use modular vanilla JS structure (no frameworks)
+- Separate concerns clearly:
+  - DOM manipulation layer
+  - State management layer
+  - Storage layer (localStorage wrapper)
+- Avoid global variables as much as possible
+
+[CODE OUTPUT REQUIREMENTS]
+- Provide full working code in 3 separate files:
+  1. index.html
+  2. style.css
+  3. app.js
+
+- No pseudocode
+- No explanations before code
+- Code must be immediately runnable when copied into a folder and opened in browser
+
+[UI REQUIREMENTS]
+- Header with title "Kanban Board"
+- Add Task button opens simple modal or inline form
+- Each column should have task count
+- Tasks should be draggable cards with shadow and hover effect
+
+[EXTRA (OPTIONAL BUT HIGH QUALITY)]
+- Add smooth animation when moving tasks
+- Add confirmation before delete
+- Add empty-state UI when no tasks exist in a column
+
+[FINAL INSTRUCTION]
+Generate the complete project now.
