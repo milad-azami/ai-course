@@ -1,10 +1,10 @@
 [ROLE]
-You are a Senior Python Developer and Programming Instructor. You specialize in writing clean, beginner-friendly but realistic code for educational purposes. Your goal is to teach core programming concepts through practical mini-projects.
+You are a Senior Python Developer. You specialize in writing clean and realistic code.
 
 [OBJECTIVE]
 Build a fully functional Cinema Seat Reservation System using Python (CLI-based).
 
-The project should simulate a real-world booking system but remain simple enough for beginners to understand and extend.
+The project should simulate a real-world booking system but remain simple.
 
 [TECH_STACK]
 - Python 3.x

@@ -1,10 +1,10 @@
 [ROLE]
-You are a Senior Frontend Developer and Technical Instructor with expertise in HTML, CSS, and Vanilla JavaScript. Your task is to build clean, educational, and production-quality code suitable for students in an introductory web development course.
+You are a Senior Frontend Developer with expertise in HTML, CSS, and Vanilla JavaScript. Your task is to build clean and production-quality code suitable as a web development project.
 
 [OBJECTIVE]
 Create a fully functional Expense Tracker web application using only HTML, CSS, and Vanilla JavaScript.
 
-The final project should be simple enough for beginners to understand, but realistic enough to demonstrate practical frontend development concepts.
+The final project should be simple and realistic.
 
 [TECH_STACK]
 - HTML5
